@@ -51,7 +51,9 @@ a.play-btn:hover{
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-a.follow-map-btn, a.return-map-btn{
+a.follow-map-btn, a.return-map-btn, a.take-gold-btn, a.continue-btn, 
+a.take-potion-btn, a.collext-gem-btn, a.right-btn, a.left-btn, a.go-back,
+a.use-gem-btn{
 	background-color: white; 
 	border: 2px solid #A569BD;
 	color: #A569BD;
@@ -65,7 +67,9 @@ a.follow-map-btn, a.return-map-btn{
 	width: 50%;
 	margin-left: 1%;
 }
-a.follow-map-btn:hover, a.return-map-btn:hover{
+a.follow-map-btn:hover, a.return-map-btn:hover, a.take-gold-btn:hover, a.continue-btn:hover,
+a.take-potion-btn:hover, a.collext-gem-btn:hover,a.right-btn:hover, a.left-btn:hover,
+a.go-back:hover, a.use-gem-btn:hover{
 	background-color: #A569BD;
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
