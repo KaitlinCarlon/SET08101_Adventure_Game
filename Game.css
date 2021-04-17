@@ -3,12 +3,26 @@ body{
 	/*#42455a;*/
 	font-size:10vm;
 }
+body.winner{
+	background-color: #FDFC06;
+	font-size:10vm;
+}
+body#fail-page{
+	background-color: #FD4906;
+	font-size:10vm;
+}
 .container{
+	/*display: flex;
+	flex-flow: row wrap;*/
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 	text-align: center;
 }
+/*.container > * {
+	padding: 10px;
+	flex: 1 100%;
+}*/
 h1, h2, article{
 	padding-bottom: 20px;
 }
@@ -22,14 +36,38 @@ h1, h2, article{
 .page_title{
 	font-family: Courier, monospace;
 	font-size: 25px;
+	margin-left: 22%;
+	margin-right: 21%;
 }
-.main{
+article#main{
 	background-color: #ABEBC6;
 	margin-left: 22%;
 	margin-right: 21%;
 	margin-bottom: 20px;
 	font-size: 20px;
 	font-family: Courier, monospace;
+}
+article#main-img{
+	background-color: #FD4906;
+	margin-left: 22%;
+	margin-right: 21%;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: Courier, monospace;
+}
+.aside-1{
+	width: 20%;
+	float: left;
+	font-style: italic;
+	background: #1F618D;
+	display: block;
+}
+.aside-2{
+	width: 20%;
+	float: right;
+	font-style: italic;
+	background: #1F618D;
+	display: block;
 }
 a.play-btn{
 	background-color: white; 
@@ -74,3 +112,15 @@ a.go-back:hover, a.use-gem-btn:hover{
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+/*@media all and (min-width: 600px){
+	.aside {flex: 1 0 0;}
+}
+@media all and (min-width: 800px){
+	.header			{flex: 3 0px;}
+	.aside-1		{order: 1; }
+	.header			{order: 2; }
+	.aside-2		{order: 3; }
+	.page_title		{order: 4; }
+	.main			{order: 5; }
+	.play-btn		{order: 6; }
+}*/
