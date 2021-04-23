@@ -33,12 +33,19 @@ h1, h2, article{
 	font-variant: small-caps;
 	color: #00ffff !important;
 }
-.page_title{
+.subtitle{
 	font-family: Courier, monospace;
 	font-size: 25px;
 	margin-left: 22%;
 	margin-right: 21%;
 }
+h2#subtitle{
+	font-family: Courier, monospace;
+	font-size: 25px;
+	margin-left: 22%;
+	margin-right: 21%;
+}
+	
 article#main{
 	background-color: #ABEBC6;
 	margin-left: 22%;
